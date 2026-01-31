@@ -28,7 +28,7 @@ jobs:
     env:
       VERSION: ${{ github.sha }}
       CONTAINER_REGISTRY: docker.io/unikorn996
-      REGISTRY_UN: ${{ secrets.REGISTRY_USERNAME }}
+      REGISTRY_UN: ${{ secrets.REGISTRY_UN }}
       REGISTRY_PW: ${{ secrets.REGISTRY_PASSWORD  }}
 
     steps:
